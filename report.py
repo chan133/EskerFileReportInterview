@@ -35,23 +35,22 @@ def main():
 				numCount+=1
 
 		#Separate each line in an array of words
-		line = i.split()
+		line = i.strip().split()
 		for j in line:
-
 			#Get number of letters in the word, add/update the value in the dict
 			wordLength=len(j)
-			if str(wordLength) in word:
-				currentVal=word[str(wordLength)]
+			if wordLength in word:
+				currentVal=word[wordLength]
 			else:
 				currentVal=0
-			word[str(wordLength)]=currentVal+1
+			word[wordLength]=currentVal+1
 
 		wordCount += len(line)
 	f.close()
 
 	#Other character count is just the difference of the rest
 	otherCount=charCount-letterCount-numCount
-
+	wordList=[]
 	#Write report to file
 	f1 = open("report.txt",'w')
 	f1.write("File name: ")
