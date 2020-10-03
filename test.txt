@@ -1,0 +1,4 @@
+Hello, my name is Justin Chan, and I'm applying to Esker. 
+This is my fake text file to generate my fake report.
+Thank you for coming to my presentation. Please enjoy the report on the way out!
+This assignment took me approximately 2 hours to complete. The hardest part was figuring out how to store the different number of letters. 
