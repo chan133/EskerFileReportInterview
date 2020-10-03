@@ -2,3 +2,5 @@ Hello, my name is Justin Chan, and I'm applying to Esker.
 This is my fake text file to generate my fake report.
 Thank you for coming to my presentation. Please enjoy the report on the way out!
 This assignment took me a little under 2 hours to complete. The hardest part was figuring out how to store the different number of letters, since Python doesn't allow for dynamic array storage.  So I had to figure it out with a dictionary.
+"Now I'm just going to paste some of my response from earlier to add some lines:
+I am applying for this position because I’m looking for a new job that involves software development but also has customer interaction.  This is something that I wish I had more of at my current job, as it fuels my motivation for working harder and getting projects done, because it reminds me why I’m doing what I’m doing.  I also really like what Esker does as a company.  My favorite part of software development has always been automation. I’m fascinated how a piece of code written in 5 minutes can complete a 10 hour job in a few seconds."
